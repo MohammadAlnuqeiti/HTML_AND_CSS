@@ -1,0 +1,34 @@
+
+
+.one { 
+  border: 2px solid red;
+  color: red !important;
+}
+.two {
+  border: 2px solid green;
+  color: green;
+}
+.three {
+  border: 2px solid blue;
+  color: blue;
+}
+.four {
+  border: 2px solid black;
+  color: black;
+}
+.p
+.one,
+.two,
+.three,
+.four, .or
+ {
+  padding: 15px;
+  margin: 12px 0;
+  background-color: #ededed;
+}
+
+/* .moh {background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;} */

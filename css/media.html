@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link font awesome -->
+
+    <script src="https://kit.fontawesome.com/782baa506c.js" crossorigin="anonymous"></script> b
+    <style>
+        body {text-align: center;}
+        .parent {display: flex;
+                 width: 100%;}
+
+        .parent div {
+                border: 3px solid red;
+                background-color: red;
+                width: 100%;
+                margin: 5px;
+                text-align: center;}
+
+       
+
+        div .fa-square-facebook{font-size: 150px;
+                                margin-left: 50%;
+                                color: red;
+                                text-align: center;}
+    
+        @media print {
+                .parent  div:nth-child(3){display: none;}} 
+
+        @media (min-width:390px)and (max-width:844px) {
+                .parent div {background-color: blue;
+                height: 200px;}}
+
+
+        
+    </style>
+</head>
+<body>
+
+    <div style="background-color:white;"><i class="fa-brands fa-square-facebook"></i></div>
+
+    <div class="parent">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+    </div>
+</body>
+</html>
